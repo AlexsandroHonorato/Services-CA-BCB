@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrazilianCentralBank.Domain\BrazilianCentralBank.Domain.csproj" />
+    <ProjectReference Include="..\BrazilianCentralBank.Infrastructure.Data.Repository\BrazilianCentralBank.Infrastructure.Data.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
